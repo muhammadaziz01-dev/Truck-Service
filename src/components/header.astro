@@ -1,0 +1,77 @@
+---
+import LogoImg from "../assets/images/logo.svg";
+---
+
+<header class="py-1 shadow-sm">
+  <nav>
+    <div class="container mx-auto px-[20px]">
+      <div class="flex items-center justify-between py-[17px] border-b border-[rgba(51,51,51,0.70)]"
+      >
+        <div class="flex items-center gap-5">
+          <div
+            class="flex items-start gap-2 pr-10 border-r border-[rgba(51,51,51,0.70)]"
+          >
+            <i class="bi bi-geo-alt-fill text-[rgba(51,51,51,0.70)] text-[20px]"
+            ></i>
+            <p
+              class="flex flex-col text-[rgba(51,51,51,0.70)] text-[14px] font-normal"
+            >
+              <span>Наш адрес:</span>
+              <strong class="font-medium">г. Бишкек, ул. Ляляля 69</strong>
+            </p>
+          </div>
+          <div class="flex items-start gap-2">
+            <i class="bi bi-alarm-fill text-[rgba(51,51,51,0.70)] text-[20px]"
+            ></i>
+            <p class="flex flex-col text-[rgba(51,51,51,0.70)] text-[14px]">
+              <span>График работы:</span>
+              <strong class="font-medium">С 8:00 до 22:00 без выходных</strong>
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="flex items-start gap-2">
+            <i
+              class="bi bi-telephone-fill text-[rgba(51,51,51,0.70)] text-[20px]"
+            ></i>
+            <p class="flex flex-col text-[rgba(51,51,51,0.70)] text-[14px]">
+              <span>+7 (708) 51 51 518</span>
+              <span>+7 (708) 51 51 518</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between py-[18px]">
+        <img src={LogoImg.src} alt="Logo" />
+        <ul class="flex items-center gap-[46px]">
+          <li
+            class="text-[#333] text-[16px] font-medium cursor-pointer hover:text-[rgba(42,46,170,0.7)] duration-150"
+          >
+            Это мы
+          </li>
+          <li
+            class="text-[#333] text-[16px] font-medium cursor-pointer hover:text-[rgba(42,46,170,0.7)] duration-150"
+          >
+            Почему мы?
+          </li>
+          <li
+            class="text-[#333] text-[16px] font-medium cursor-pointer hover:text-[rgba(42,46,170,0.7)] duration-150"
+          >
+            А вот поэтому
+          </li>
+          <li
+            class="text-[#333] text-[16px] font-medium cursor-pointer hover:text-[rgba(42,46,170,0.7)] duration-150"
+          >
+            Контакты
+          </li>
+        </ul>
+        <button
+          class="text-[16px] font-medium text-white py-[11px] px-[23px] bg-[#4762FF] rounded-md hover:bg-[#303b7e] duration-150 active:bg-[#4762FF]"
+        >
+          Заказать звонок
+        </button>
+      </div>
+      <div></div>
+    </div>
+  </nav>
+</header>
